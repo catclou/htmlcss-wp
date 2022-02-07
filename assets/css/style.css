@@ -68,6 +68,7 @@ li:hover a {
     margin-bottom: 3vh;
     border-radius: 15px;
     display: block;
+    position: relative;
 }
 
 .overlay {
@@ -75,6 +76,21 @@ li:hover a {
     margin-bottom: 3vh;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.big-caption-banner {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    padding: 5%;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+.small-caption-banner {
+    font-size: 0.7rem;
     display: block;
 }
 
