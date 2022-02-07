@@ -1,0 +1,85 @@
+/* reset starts here */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* reset ends here */
+
+/* pay attention to the placeholders! */
+h2, h3 {
+    display: none;
+}
+/* pay attention to the placeholders! */
+
+.big-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+header, 
+.yellow-container, 
+.blue-container, 
+footer {
+    width: 100%;
+}
+
+header {
+    background-color: #e579e6;
+    height: calc(100vh - 35vh - 3vh - 42vh - 4vh - 5vh);
+    margin-bottom: 3vh;
+}
+
+.yellow-container {
+    background-color: #e1d67a;
+    height: 35vh;
+    margin-bottom: 3vh;
+}
+
+.blue-container {
+    background-color: #0086ff;
+    height: 42vh;
+    margin-bottom: 1vh;
+}
+
+footer {
+    background-color: #8801fe;
+    height: 5vh;
+}
+
+.top-article, 
+.left-article, 
+.central-article,
+.right-article {
+    background-color: #abcfe7;
+}
+
+.top-article {
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 2vh;
+}
+
+.left-article,
+.right-article,
+.central-article {
+    width: 20%;
+    height: calc(100% - 8vh - 4vh);
+}
+
+.left-article,
+.central-article,
+.right-article {
+    float: left;
+}
+
+.central-article {
+    width: calc(100% - 40% - 2vw);
+    margin-left: 1vw;
+}
+
+.right-article {
+    margin-left: 1vw;
+}
