@@ -41,6 +41,10 @@ header {
     padding-left: 5px;
 }
 
+nav {
+    padding: 1.5vh 0;
+}
+
 li {
     display: inline-block;
     margin: 0;
@@ -75,7 +79,7 @@ li:hover a {
     position: relative;
 }
 
-.overlay {
+.banner-overlay {
     height: 50vh;
     margin-bottom: 3vh;
     border-radius: 15px;
@@ -104,21 +108,13 @@ li:hover a {
 }
 
 .blue-container {
-    /* background-color: #0086ff; */
     height: 42vh;
     margin-bottom: 1vh;
 }
 
 footer {
-    background-color: #8801fe;
     height: 5vh;
-}
-
-/* .top-article,  */
-.left-article, 
-.central-article,
-.right-article {
-    background-color: #abcfe7;
+    width: 100%;
 }
 
 .top-article {
@@ -131,13 +127,62 @@ footer {
 .right-article,
 .central-article {
     width: 20%;
-    height: calc(100% - 8vh - 4vh);
+    height: 63vh;
+    margin-bottom: 4vh;
+}
+
+.clearfix {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.lorem-20, .ipsum-60 {
+    width: 100%;
+    height: 20vh;
+    border-radius: 15px;
+}
+
+.first-paragraph, .third-paragraph {
+    background-image: url("../img/img-1.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+
+.third-paragraph {
+    background-image: url("../img/img-3.jpg");
+    background-position-x: center;
+}
+
+.ipsum-60 {
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+
+.overlay-lorem-20, .overlay-ipsum-60 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.lorem-heading, .ipsum-heading {
+    font-size: smaller;
+    font-weight: 400;
+    padding: 2vh 0;
 }
 
 .left-article,
 .central-article,
 .right-article {
     float: left;
+}
+
+.blog-text {
+    font-size: smaller;
+    font-weight: 400;
+    color:#929292;
 }
 
 .central-article {
@@ -147,4 +192,18 @@ footer {
 
 .right-article {
     margin-left: 1vw;
+}
+
+.signature-footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    line-height: 5vh;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.heart {
+    color: red;
 }
