@@ -61,9 +61,21 @@ li:hover a {
 }
 
 .yellow-container {
-    background-color: #e1d67a;
-    height: 35vh;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position-y: center;
+    height: 50vh;
     margin-bottom: 3vh;
+    border-radius: 15px;
+    display: block;
+}
+
+.overlay {
+    height: 50vh;
+    margin-bottom: 3vh;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: block;
 }
 
 .blue-container {
