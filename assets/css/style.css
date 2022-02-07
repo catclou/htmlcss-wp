@@ -8,10 +8,14 @@
 /* reset ends here */
 
 /* pay attention to the placeholders! */
-h2, h3 {
+/* h2, h3 {
+    display: none;
+} */
+/* pay attention to the placeholders! */
+
+.dont-display-this {
     display: none;
 }
-/* pay attention to the placeholders! */
 
 .big-container {
     width: 70%;
@@ -94,8 +98,13 @@ li:hover a {
     display: block;
 }
 
+.small-caption-leadership {
+    font-size: 0.7rem;
+    color: #929292;
+}
+
 .blue-container {
-    background-color: #0086ff;
+    /* background-color: #0086ff; */
     height: 42vh;
     margin-bottom: 1vh;
 }
@@ -105,7 +114,7 @@ footer {
     height: 5vh;
 }
 
-.top-article, 
+/* .top-article,  */
 .left-article, 
 .central-article,
 .right-article {
