@@ -7,12 +7,6 @@
 }
 /* reset ends here */
 
-/* pay attention to the placeholders! */
-/* h2, h3 {
-    display: none;
-} */
-/* pay attention to the placeholders! */
-
 .dont-display-this {
     display: none;
 }
@@ -56,6 +50,7 @@ a {
 	text-decoration: none;
 	padding: 10px;
     color: #929292;
+    text-transform: uppercase;
 }
 
 .active {
